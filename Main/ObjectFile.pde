@@ -18,6 +18,7 @@ class ObjectFile {
     noFill();
     stroke(red);
     box(70);
+    
     save("new2.jpg");
   }
 }
