@@ -12,7 +12,7 @@ class ObjectFile {
   }
   
   void saveImage() {
-    background(bg);
+    image(bg, 0, 0);
     translate(width/2, height/2, 10); 
     rotateY(0.5);
     noFill();

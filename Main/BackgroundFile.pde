@@ -16,7 +16,7 @@ class BackgroundFile {
   }
   
   void saveImage() {
-    background(bg);
+    image(bg, 0, 0);
     fill(000);
     rectMode(CENTER);
     rect (xRect, yRect, wRect, hRect);
